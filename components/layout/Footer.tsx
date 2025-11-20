@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Facebook, Linkedin, Twitter } from "lucide-react";
+import { MapPin, Facebook, Linkedin, Twitter } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Separator } from "@/components/ui/separator";
 
@@ -36,29 +36,11 @@ export function Footer() {
               {t("description")}
             </p>
             <div className="space-y-3 text-sm">
-              <a
-                href="tel:+66814388788"
-                className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
-              >
-                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Phone className="h-4 w-4 text-primary" />
-                </div>
-                <span>(+66)81-438-8788</span>
-              </a>
-              <a
-                href="mailto:wiwat@silverland99.com"
-                className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
-              >
-                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Mail className="h-4 w-4 text-primary" />
-                </div>
-                <span>wiwat@silverland99.com</span>
-              </a>
               <div className="flex items-start gap-3 text-muted-foreground">
-                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin className="h-4 w-4 text-primary" />
                 </div>
-                <span className="text-xs leading-relaxed">Bangkok 10150, Thailand</span>
+                <span className="text-xs leading-relaxed">481/240 Suetrong Premium Rama 2 - Samae Dam, Soi Samae Dam, Rama 2 Road, Samae Dam Sub-district, Bang Khun Thian District, Bangkok 10150 THAILAND</span>
               </div>
             </div>
           </div>

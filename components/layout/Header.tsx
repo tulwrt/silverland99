@@ -41,11 +41,11 @@ export function Header({ locale }: HeaderProps) {
           <div className="flex h-10 items-center justify-between text-sm">
             <div className="flex items-center gap-6">
               <a
-                href="tel:02-xxx-xxxx"
+                href="tel:+66814388788"
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground"
               >
                 <Phone className="h-3.5 w-3.5" />
-                <span>02-xxx-xxxx</span>
+                <span>(+66)81-438-8788</span>
               </a>
               <a
                 href="mailto:contact@silverland99.com"
