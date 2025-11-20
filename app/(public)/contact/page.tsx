@@ -16,9 +16,11 @@ export default async function ContactPage() {
   const t = await getTranslations("contact");
 
   // Team members data from translations
+  // Initials are kept in English (W, S, D) regardless of language
   const teamMembers = [
     {
       name: t("team.members.0.name"),
+      initial: "W",
       position: t("team.members.0.position"),
       phone: t("team.members.0.phone"),
       wechat: t("team.members.0.wechat"),
@@ -27,6 +29,7 @@ export default async function ContactPage() {
     },
     {
       name: t("team.members.1.name"),
+      initial: "S",
       position: t("team.members.1.position"),
       phone: t("team.members.1.phone"),
       wechat: t("team.members.1.wechat"),
@@ -35,6 +38,7 @@ export default async function ContactPage() {
     },
     {
       name: t("team.members.2.name"),
+      initial: "W",
       position: t("team.members.2.position"),
       phone: t("team.members.2.phone"),
       wechat: t("team.members.2.wechat"),
@@ -64,7 +68,7 @@ export default async function ContactPage() {
                 <CardHeader className="text-center pb-4">
                   <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary">
-                      {member.name.charAt(0)}
+                      {member.initial}
                     </span>
                   </div>
                   <CardTitle className="text-lg">{member.name}</CardTitle>
