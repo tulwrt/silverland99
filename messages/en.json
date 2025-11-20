@@ -127,6 +127,39 @@
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Get in touch with our team"
+    "description": "Get in touch with our team",
+    "team": {
+      "title": "Our Team",
+      "members": [
+        {
+          "name": "Wiwat Ngamsom",
+          "position": "Managing Director",
+          "phone": "(+66)81-438-8788",
+          "wechat": "ton.wiwat",
+          "line": "ton.wiwat",
+          "email": "wiwat@silverland99.com"
+        },
+        {
+          "name": "Sermpol Vatanavorakitkul",
+          "position": "Director of Land Development",
+          "phone": "(+66)65-293-9529",
+          "wechat": "sermpol32",
+          "line": "sermpol32",
+          "email": "sermpol@silverland99.com"
+        },
+        {
+          "name": "Dr. Warut Srisuwan",
+          "position": "Director of Business Development",
+          "phone": "(+66)65-062-8888",
+          "wechat": "waruttul",
+          "line": "waruttul",
+          "email": "warut@silverland99.com"
+        }
+      ]
+    },
+    "office": {
+      "title": "Office Location",
+      "address": "481/240 Suetrong Premium Rama 2 - Samae Dam, Soi Samae Dam, Rama 2 Road, Samae Dam Sub-district, Bang Khun Thian District, Bangkok 10150 THAILAND"
+    }
   }
 }

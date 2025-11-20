@@ -127,6 +127,39 @@
   },
   "contact": {
     "title": "ติดต่อเรา",
-    "description": "ติดต่อทีมงานของเรา"
+    "description": "ติดต่อทีมงานของเรา",
+    "team": {
+      "title": "ทีมงานของเรา",
+      "members": [
+        {
+          "name": "วิวัฒน์ งามสม",
+          "position": "กรรมการผู้จัดการ",
+          "phone": "(+66)81-438-8788",
+          "wechat": "ton.wiwat",
+          "line": "ton.wiwat",
+          "email": "wiwat@silverland99.com"
+        },
+        {
+          "name": "เสริมพล วัฒนวรกิจกุล",
+          "position": "ผู้อำนวยการฝ่ายพัฒนาที่ดิน",
+          "phone": "(+66)65-293-9529",
+          "wechat": "sermpol32",
+          "line": "sermpol32",
+          "email": "sermpol@silverland99.com"
+        },
+        {
+          "name": "ดร. วรุต ศรีสุวรรณ์",
+          "position": "ผู้อำนวยการฝ่ายพัฒนาธุรกิจ",
+          "phone": "(+66)65-062-8888",
+          "wechat": "waruttul",
+          "line": "waruttul",
+          "email": "warut@silverland99.com"
+        }
+      ]
+    },
+    "office": {
+      "title": "ที่ตั้งสำนักงาน",
+      "address": "หมู่บ้านซื่อตรง พรีเมี่ยม ไอ แอม เฟส 2 พระราม 2-แสมดำ เลขที่ 481/240 ถ.พระราม 2 ซ.แสมดำ แขวงแสมดำ เขตบางขุนเทียน กรุงเทพ 10150 ประเทศไทย"
+    }
   }
 }

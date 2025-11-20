@@ -37,28 +37,28 @@ export function Footer() {
             </p>
             <div className="space-y-3 text-sm">
               <a
-                href="tel:02-xxx-xxxx"
+                href="tel:+66814388788"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
                   <Phone className="h-4 w-4 text-primary" />
                 </div>
-                <span>02-xxx-xxxx</span>
+                <span>(+66)81-438-8788</span>
               </a>
               <a
-                href="mailto:contact@silverland99.com"
+                href="mailto:wiwat@silverland99.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
                   <Mail className="h-4 w-4 text-primary" />
                 </div>
-                <span>contact@silverland99.com</span>
+                <span>wiwat@silverland99.com</span>
               </a>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+              <div className="flex items-start gap-3 text-muted-foreground">
+                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <MapPin className="h-4 w-4 text-primary" />
                 </div>
-                <span>Bangkok, Thailand</span>
+                <span className="text-xs leading-relaxed">Bangkok 10150, Thailand</span>
               </div>
             </div>
           </div>
