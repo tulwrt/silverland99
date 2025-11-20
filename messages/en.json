@@ -134,6 +134,16 @@
     "title": "Blog",
     "description": "Latest news and articles about Data Center real estate"
   },
+  "login": {
+    "title": "Login",
+    "description": "Login to manage properties",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "register": "Register"
+  },
   "contact": {
     "title": "Contact Us",
     "description": "Get in touch with our team",

@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "เข้าสู่ระบบ",
-  description: "เข้าสู่ระบบ Silverland99",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("login");
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
-export default function LoginPage() {
+export default async function LoginPage() {
+  const t = await getTranslations("login");
+
   return (
     <div className="bg-card rounded-lg border p-8 shadow-sm">
       <div className="mb-6 text-center">
-        <h1 className="text-2xl font-bold">เข้าสู่ระบบ</h1>
+        <h1 className="text-2xl font-bold">{t("title")}</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          เข้าสู่ระบบเพื่อจัดการอสังหาริมทรัพย์
+          {t("description")}
         </p>
       </div>
 
@@ -19,7 +25,7 @@ export default function LoginPage() {
       <form className="space-y-4">
         <div>
           <label htmlFor="email" className="block text-sm font-medium mb-1">
-            อีเมล
+            {t("email")}
           </label>
           <input
             type="email"
@@ -31,7 +37,7 @@ export default function LoginPage() {
         </div>
         <div>
           <label htmlFor="password" className="block text-sm font-medium mb-1">
-            รหัสผ่าน
+            {t("password")}
           </label>
           <input
             type="password"
@@ -44,7 +50,7 @@ export default function LoginPage() {
           type="submit"
           className="w-full bg-primary text-primary-foreground py-2 rounded-md font-medium hover:bg-primary/90"
         >
-          เข้าสู่ระบบ
+          {t("submit")}
         </button>
       </form>
     </div>
