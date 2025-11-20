@@ -28,7 +28,7 @@ export function Footer() {
                   Silver Land 99
                 </span>
                 <span className="text-[9px] text-muted-foreground -mt-0.5 tracking-wider">
-                  LAND & REAL ESTATE
+                  {t("tagline")}
                 </span>
               </div>
             </Link>

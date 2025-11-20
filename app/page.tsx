@@ -139,11 +139,11 @@ export default async function HomePage() {
                 </div>
                 <div className="flex items-center gap-2 text-foreground/70">
                   <CheckCircle className="w-4 h-4 text-primary" />
-                  <span className="font-medium">Verified Properties</span>
+                  <span className="font-medium">{t("verifiedProperties")}</span>
                 </div>
                 <div className="flex items-center gap-2 text-foreground/70">
                   <Zap className="w-4 h-4 text-primary" />
-                  <span className="font-medium">Ready Infrastructure</span>
+                  <span className="font-medium">{t("readyInfrastructure")}</span>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default async function HomePage() {
 
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center mb-16">
-              <Badge variant="outline" className="mb-4">Infrastructure</Badge>
+              <Badge variant="outline" className="mb-4">{t("badgeInfrastructure")}</Badge>
               <h2 className="text-3xl md:text-4xl font-bold">
                 {t("features.title")}
               </h2>
@@ -217,7 +217,7 @@ export default async function HomePage() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4">
               <div>
-                <Badge variant="outline" className="mb-3">Featured</Badge>
+                <Badge variant="outline" className="mb-3">{t("badgeFeatured")}</Badge>
                 <h2 className="text-3xl md:text-4xl font-bold">{t("featured.title")}</h2>
                 <p className="mt-3 text-muted-foreground text-lg">
                   {t("featured.description")}

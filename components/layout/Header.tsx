@@ -87,7 +87,7 @@ export function Header({ locale }: HeaderProps) {
                 Silver Land 99
               </span>
               <span className="text-[10px] text-muted-foreground -mt-1 tracking-wider">
-                LAND & REAL ESTATE
+                {tHeader("tagline")}
               </span>
             </div>
           </Link>

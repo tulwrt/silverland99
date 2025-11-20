@@ -22,6 +22,11 @@
     "heroTitleHighlight": "for Data Center in Thailand",
     "heroDescription": "Real estate platform specializing in large land plots in Thailand with complete infrastructure information - electricity, water, fiber, and distance to substations.",
     "viewProperties": "View All Properties",
+    "tagline": "LAND & REAL ESTATE",
+    "verifiedProperties": "Verified Properties",
+    "readyInfrastructure": "Ready Infrastructure",
+    "badgeInfrastructure": "Infrastructure",
+    "badgeFeatured": "Featured",
     "stats": {
       "plots": "Land Plots",
       "rai": "Rai Available",
@@ -73,6 +78,7 @@
   "footer": {
     "description": "Real estate platform specializing in large land plots for Data Center with complete infrastructure information.",
     "address": "481/240 Suetrong Premium Rama 2 - Samae Dam, Soi Samae Dam, Rama 2 Road, Samae Dam Sub-district, Bang Khun Thian District, Bangkok 10150 THAILAND",
+    "tagline": "LAND & REAL ESTATE",
     "properties": {
       "title": "Properties",
       "dataCenter": "Land for Data Center",
@@ -102,7 +108,8 @@
     "topBar": {
       "login": "Login"
     },
-    "menu": "Menu"
+    "menu": "Menu",
+    "tagline": "LAND & REAL ESTATE"
   },
   "properties": {
     "title": "Properties",
