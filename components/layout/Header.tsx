@@ -83,7 +83,7 @@ export function Header({ locale }: HeaderProps) {
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
+              <span className="text-xl font-bold bg-gradient-to-r from-gray-500 to-primary bg-clip-text text-transparent">
                 Silver Land 99
               </span>
               <span className="text-[10px] text-muted-foreground -mt-1 tracking-wider">
