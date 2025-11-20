@@ -142,7 +142,10 @@
     "submit": "Login",
     "forgotPassword": "Forgot password?",
     "noAccount": "Don't have an account?",
-    "register": "Register"
+    "register": "Register",
+    "orDivider": "or",
+    "webmail": "Access Company Email",
+    "webmailDescription": "Check your company email"
   },
   "contact": {
     "title": "Contact Us",

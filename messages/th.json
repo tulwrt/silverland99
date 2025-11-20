@@ -142,7 +142,10 @@
     "submit": "เข้าสู่ระบบ",
     "forgotPassword": "ลืมรหัสผ่าน?",
     "noAccount": "ยังไม่มีบัญชี?",
-    "register": "สมัครสมาชิก"
+    "register": "สมัครสมาชิก",
+    "orDivider": "หรือ",
+    "webmail": "เข้าอีเมลบริษัท",
+    "webmailDescription": "ตรวจสอบอีเมลของบริษัท"
   },
   "contact": {
     "title": "ติดต่อเรา",
