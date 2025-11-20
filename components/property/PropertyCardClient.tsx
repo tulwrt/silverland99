@@ -108,11 +108,11 @@ export function PropertyCardClient({ property, locale = "en", index = 0 }: Prope
           <div className="flex justify-between items-end mt-4 pt-3 border-t">
             <div>
               <div className="text-lg font-bold text-primary">
-                {property.price ? formatPrice(property.price) : (locale === "th" ? "ติดต่อสอบถาม" : "Contact for price")}
+                {locale === "th" ? "ติดต่อสอบถาม" : "Contact for price"}
               </div>
               {property.price_per_rai && (
                 <div className="text-xs text-muted-foreground">
-                  {formatPrice(property.price_per_rai)}/{locale === "th" ? "ไร่" : "Rai"}
+                  XXX/{locale === "th" ? "ไร่" : "Rai"}
                 </div>
               )}
             </div>
