@@ -52,7 +52,7 @@ export default async function ContactPage() {
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <Badge variant="outline" className="mb-4">Contact</Badge>
+          <Badge variant="outline" className="mb-4">{t("badge")}</Badge>
           <h1 className="text-4xl md:text-5xl font-bold">{t("title")}</h1>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
             {t("description")}
