@@ -14,8 +14,8 @@ import { setLocale } from "@/lib/locale";
 import { type Locale } from "@/i18n/config";
 
 const languages = [
-  { code: "en" as Locale, name: "EN", flag: "EN" },
-  { code: "th" as Locale, name: "TH", flag: "TH" },
+  { code: "en" as Locale, name: "English", flag: "EN" },
+  { code: "th" as Locale, name: "ไทย", flag: "TH" },
 ];
 
 interface LanguageSwitcherProps {
