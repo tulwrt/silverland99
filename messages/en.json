@@ -1,0 +1,132 @@
+{
+  "common": {
+    "home": "Home",
+    "properties": "Properties",
+    "services": "Services",
+    "blog": "Blog",
+    "about": "About Us",
+    "contact": "Contact",
+    "login": "Login",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "loading": "Loading...",
+    "noData": "No data available"
+  },
+  "home": {
+    "badge": "Land for Data Center",
+    "heroTitle": "Find Large Land Plots",
+    "heroTitleHighlight": "for Data Center",
+    "heroDescription": "Real estate platform specializing in large land plots with complete infrastructure information - electricity, water, fiber, and distance to substations.",
+    "viewProperties": "View All Properties",
+    "stats": {
+      "plots": "Land Plots",
+      "rai": "Rai Available",
+      "mw": "MW Capacity",
+      "years": "Years Experience"
+    },
+    "features": {
+      "title": "Land Ready for Data Center",
+      "description": "We carefully select land with complete infrastructure suitable for building Data Centers.",
+      "power": {
+        "title": "High Power Capacity",
+        "description": "Land plots near substations, supporting 10-100+ MW"
+      },
+      "water": {
+        "title": "Adequate Water Supply",
+        "description": "Sufficient water sources for cooling systems"
+      },
+      "fiber": {
+        "title": "Fiber Optic",
+        "description": "Multiple Internet Fiber routes available"
+      },
+      "location": {
+        "title": "Strategic Location",
+        "description": "Near main roads, seaports, and airports"
+      }
+    },
+    "featured": {
+      "title": "Featured Properties",
+      "description": "Quality land specially selected for you",
+      "loading": "Loading property data..."
+    },
+    "whyUs": {
+      "title": "Why Choose Silver Land 99",
+      "description": "We specialize in real estate for Data Centers, providing comprehensive consulting services from land search, document verification, to closing deals.",
+      "reasons": [
+        "Complete infrastructure information",
+        "Verified title documents",
+        "Data Center expert team",
+        "Full-service consulting",
+        "Direct landowner network",
+        "Direct prices from owners"
+      ]
+    },
+    "cta": {
+      "title": "Ready to Find Land for Data Center?",
+      "description": "Contact our expert team today for free consultation and find land that meets your requirements."
+    }
+  },
+  "footer": {
+    "description": "Real estate platform specializing in large land plots for Data Center with complete infrastructure information.",
+    "properties": {
+      "title": "Properties",
+      "dataCenter": "Land for Data Center",
+      "land": "Vacant Land",
+      "industrial": "Industrial Land",
+      "all": "All Listings"
+    },
+    "services": {
+      "title": "Services",
+      "consulting": "Data Center Consulting",
+      "valuation": "Valuation",
+      "dueDiligence": "Due Diligence"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "blog": "Blog",
+      "contact": "Contact Us"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "All rights reserved."
+  },
+  "header": {
+    "topBar": {
+      "login": "Login"
+    },
+    "menu": "Menu"
+  },
+  "properties": {
+    "title": "Properties",
+    "description": "Find large land plots for Data Center",
+    "noProperties": "No properties available",
+    "detail": {
+      "title": "Property Details",
+      "contentPlaceholder": "Property details content will be added here",
+      "formPlaceholder": "Contact form will be added here"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about Silver Land 99"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Professional real estate services for Data Center"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest news and articles about Data Center real estate"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team"
+  }
+}

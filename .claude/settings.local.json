@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(del \"c:\\silverland99\\app\\page.tsx\")",
+      "Bash(npm run build:*)",
+      "Bash(npx shadcn@latest init -y)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm run dev:*)",
+      "Bash(copy \"c:\\silverland99\\SilverLand99Logo.png\" \"c:\\silverland99\\public\\logo.png\")",
+      "Read(//c/Users/Warut Srisuwan/Desktop/**)",
+      "Bash(npx sharp-cli:*)",
+      "Bash(node scripts/convert-logo.js:*)",
+      "Bash(node:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
