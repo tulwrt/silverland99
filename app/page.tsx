@@ -245,7 +245,7 @@ export default async function HomePage() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="animate-fade-in-left">
-                <Badge variant="outline" className="mb-4">Why Us</Badge>
+                <Badge variant="outline" className="mb-4">{t("badgeWhyUs")}</Badge>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   {t("whyUs.title")}
                 </h2>
