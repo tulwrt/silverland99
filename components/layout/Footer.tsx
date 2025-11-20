@@ -40,7 +40,7 @@ export function Footer() {
                 <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin className="h-4 w-4 text-primary" />
                 </div>
-                <span className="text-xs leading-relaxed">481/240 Suetrong Premium Rama 2 - Samae Dam, Soi Samae Dam, Rama 2 Road, Samae Dam Sub-district, Bang Khun Thian District, Bangkok 10150 THAILAND</span>
+                <span className="text-xs leading-relaxed">{t("address")}</span>
               </div>
             </div>
           </div>
